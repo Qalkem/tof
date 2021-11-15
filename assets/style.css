@@ -1,0 +1,298 @@
+body
+{
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1 1 1 1;
+  margin:0;
+  
+    
+  
+}
+header{
+
+  background-color: yellow;
+  display:grid;
+  gap: 16px;
+  Display: flex; 
+  Gap: 20px; 
+  margin-top:0px;
+  margin-left: 0em;
+  }
+ 
+  .inshallah{
+    margin-left:20px;
+  }
+  .Search{
+
+    justify-content: center;
+    align-items: center;
+     margin-top: 15px;
+    width: 9em;
+    height:3em;
+    background:white;
+    color:grey;
+
+  }
+  .How{
+
+    margin-top: 25px;
+  }
+
+  .Follow{
+
+  margin-top: 25px;
+  }
+  
+  .MyWallet{
+    max-width: 3rem;
+    max-height: 3rem;
+    display: flex;
+    gap:1em;
+    cursor: pointer;
+  }
+ 
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 16px;
+    margin-left: 13em;
+   }
+ 
+   #Eye{
+    margin-left: 25px;
+    margin-top: 10px;
+    max-width: 3rem;
+    max-height: 3rem;
+    cursor: pointer;
+  }
+ 
+  .Ahava{
+    margin-top: 12px;
+    max-width: 3rem;
+    max-height: 3rem;
+    cursor: pointer;
+    
+  }
+ 
+ 
+
+   main{
+     display:flex;
+      
+    align-items:flex-end;
+    justify-content:left ;
+    background-image: url(./yemenites.jfif);
+     background-repeat: no-repeat; 
+     background-size: contain;
+     background-size: 1500px;
+     width: 1348px;
+     height: 450px;
+     margin-left: 0; 
+    }
+
+    .MainBox{
+      display: flex;
+      flex-direction: column;
+      
+      
+    }
+
+    
+
+    .ContainerOne{
+      display:flex;
+      gap: 50px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40rem;
+      margin-left: 150px;
+      color:rgb(0, 0, 0);
+      outline-color: orange;
+      border-radius: 2%;
+      border-width: 50rem;
+      background-color:  yellow;
+      outline-width: 20rem;
+      outline:1px solid #fffb00;
+      width: 400px;
+      height:50px
+       
+    }
+
+    .Donate{
+      background-color: yellow;
+      cursor: pointer;
+      
+      
+    }
+    .Mission{
+      background-color: rgb(248, 212, 114);
+      cursor: pointer;
+    }
+    .Contact{
+      background-color: rgb(248, 237, 139);
+      cursor: pointer;
+    } 
+
+    .Options{      
+      Background-color: yellow;    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left:150px;
+    outline: 1px solid #fffb00;
+    border-radius: 1%;
+
+  }
+
+  .SearchBoxes{
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 246, 6);
+    margin-left:150px;
+    outline: 1px solid #fffb00;
+    cursor: pointer;
+  
+  }
+
+#SearchCountry{
+    color:grey;
+    background-color:white;
+    background-size: 50px 80px;
+    width: 9em;
+    height: 3em;
+    margin-bottom: 10px;
+    margin-left:10px;
+    cursor: pointer;
+  
+  }
+  
+  #SearchCoin{
+    color:grey;
+    margin-bottom: 10px;
+    cursor: pointer;
+ 
+    background-color:white;
+    width: 6em;
+    height: 3em;
+    border-radius: 10%;
+  }
+
+  .Btc{
+      margin-left: 20px;
+      margin-top: 5px;
+      max-width: 3rem;
+      max-height: 3rem;
+      cursor: pointer;
+      cursor: pointer;
+    }
+ 
+
+  #SearchFiat{
+    background-color:white;
+    width: 6em;
+    height:3em;
+    color:grey;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+    border-radius: 10%;
+     
+ 
+    
+  }
+  #searchCoin{
+
+    cursor: pointer;
+  margin-left: 20px;
+  float: left;
+  }
+  
+ 
+  #country{
+    margin-right:10px;
+    cursor: pointer;
+  }
+
+  .Aside{
+
+    display:grid;
+   
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 20px;
+      height: 400px;
+
+      gap: 2px;
+      background: white;
+     
+  
+    }
+                                             
+
+
+    .Gift{
+      cursor: pointer;
+
+     margin-left: 7em;
+      margin-right: 7em;
+      min-height: 300px;
+
+
+    }
+    
+    .Yemen{
+      margin-left: 7em;
+      margin-right: 7em;
+      min-height: 300px;
+  
+      }
+             
+  
+ 
+  #YemenBox{
+      display: grid;
+      flex-direction: row;
+      row-gap: 20px;
+      margin-top:15px;
+      height:400px;
+      margin-left: 120px;
+      margin-right: 100px;
+     
+     
+    
+
+    }
+    #YemenBox > section{
+      background-color: #fffb00;
+      border-radius: 3%;
+      cursor: pointer;
+    }
+ 
+    .article{
+      Background: Yellow;
+      display: grid;
+      flex-direction: row;
+      row-gap: 20px;
+      margin-top:50px;
+      height:2800px;
+      margin-left: 200px;
+      margin-right: 100px;
+      border-radius: 1%;
+      font-size:25px;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+
+    }
+
+    .Ahmed{
+      margin-left: 4em;
+  
+
+    }
+ 
+
+    
